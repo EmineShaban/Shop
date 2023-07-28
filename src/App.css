@@ -1,7 +1,57 @@
-img{
+img {
   width: 100%;
 }
 
-div.logo-img{
-  width: 20%;
+div.app{
+  width: 80%;
+  margin: auto;
+}
+
+div.logo-img {
+  width: 15%;
+  margin: 0 25px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin: 25px;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+
+}
+
+div.order a {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  border: 3px solid blueviolet;
+  margin: 25px;
+  padding: 5px;
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cccc;
+  margin-bottom: 25px;
+}
+
+
+div.container{
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
 }
