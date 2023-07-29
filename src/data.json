@@ -1,0 +1,686 @@
+[
+    {
+        "id": 1,
+        "title": "iPhone 9",
+        "description": "An apple mobile which is nothing like apple",
+        "price": 549,
+        "rating": 4.69,
+        "brand": "Apple",
+        "category": "smartphones",
+        "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "images": [
+            "https://i.dummyjson.com/data/products/1/1.jpg",
+            "https://i.dummyjson.com/data/products/1/2.jpg",
+            "https://i.dummyjson.com/data/products/1/3.jpg",
+            "https://i.dummyjson.com/data/products/1/4.jpg",
+            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "iPhone X",
+        "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+        "price": 899,
+        "rating": 4.44,
+        "brand": "Apple",
+        "category": "smartphones",
+        "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+        "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Samsung Universe 9",
+        "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+        "price": 1249,
+        "rating": 4.09,
+        "brand": "Samsung",
+        "category": "smartphones",
+        "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+        "images": [
+            "https://i.dummyjson.com/data/products/3/1.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "OPPOF19",
+        "description": "OPPO F19 is officially announced on April 2021.",
+        "price": 280,
+        "rating": 4.3,
+        "brand": "OPPO",
+        "category": "smartphones",
+        "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+        "images": [
+            "https://i.dummyjson.com/data/products/4/1.jpg",
+            "https://i.dummyjson.com/data/products/4/2.jpg",
+            "https://i.dummyjson.com/data/products/4/3.jpg",
+            "https://i.dummyjson.com/data/products/4/4.jpg",
+            "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Huawei P30",
+        "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+        "price": 499,
+        "rating": 4.09,
+        "brand": "Huawei",
+        "category": "smartphones",
+        "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+        "images": [
+            "https://i.dummyjson.com/data/products/5/1.jpg",
+            "https://i.dummyjson.com/data/products/5/2.jpg",
+            "https://i.dummyjson.com/data/products/5/3.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "XIAOMI REDMI NOTE 12 PRO",
+        "description": "Xiomi Redmi Note 12 Pro IMX766 flagship camera with OIS",
+        "price": 300,
+        "rating": 4.25,
+        "brand": "Xiaomi",
+        "category": "smartphones",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h6e/hf6/30524046671902.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h4d/h32/30524047589406.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h6f/h74/30524047786014.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h6e/hf6/30524046671902.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "XIAOMI 13",
+        "description": "Xioami 13 with Qualcomm Snapdragon 8 Gen 2",
+        "price": 750,
+        "rating": 4.63,
+        "brand": "Xiaomi",
+        "category": "smartphones",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h1e/h76/30321987354654.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h53/h90/30321988010014.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h58/h53/30321988403230.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h7f/hf4/30321987289118.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h1e/h76/30321987354654.jpg"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "GSM NOKIA G21",
+        "description": "GSM NOKIA G21 BLUE 6.50",
+        "price": 150,
+        "rating": 4.01,
+        "brand": "Nokia",
+        "category": "smartphones",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/hae/h64/26837645033502.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/hf0/h90/26837646082078.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h55/hc1/26837645885470.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h88/hfc/26837645688862.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hae/h64/26837645033502.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "GSM NOKIA G42",
+        "description": "GSM Nokia G42 with Snapdragon® 480 Plus.",
+        "price": 270,
+        "rating": 4.13,
+        "brand": "Nokia",
+        "category": "smartphones",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h86/hf1/30886962855966.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/heb/h14/30886963511326.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h24/h56/30886964101150.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h0f/h28/30886963904542.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h86/hf1/30886962855966.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "GSM CAT S75",
+        "description": "GSM Cat S75 with display Type IPS, 120 Hz",
+        "price": 600,
+        "rating": 4.56,
+        "brand": "CAT",
+        "category": "smartphones",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h42/h08/30155301388318.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/hbe/h08/30155302043678.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hb1/h2e/30155302633502.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h3b/h34/30155302436894.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h62/h39/30155302240286.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h42/h08/30155301388318.jpg"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Infinix INBOOK",
+        "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+        "price": 1099,
+        "rating": 4.54,
+        "brand": "Infinix",
+        "category": "laptops",
+        "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+        "images": [
+            "https://i.dummyjson.com/data/products/9/1.jpg",
+            "https://i.dummyjson.com/data/products/9/2.png",
+            "https://i.dummyjson.com/data/products/9/3.png",
+            "https://i.dummyjson.com/data/products/9/4.jpg",
+            "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "HP Pavilion 15-DK1056WM",
+        "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+        "price": 1099,
+        "rating": 4.43,
+        "brand": "HP Pavilion",
+        "category": "laptops",
+        "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
+        "images": [
+            "https://i.dummyjson.com/data/products/10/1.jpg",
+            "https://i.dummyjson.com/data/products/10/2.jpg",
+            "https://i.dummyjson.com/data/products/10/3.jpg",
+            "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "HP Pavilion 15-DK1056WM",
+        "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+        "price": 1099,
+        "rating": 4.43,
+        "brand": "HP Pavilion",
+        "category": "laptops",
+        "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
+        "images": [
+            "https://i.dummyjson.com/data/products/10/1.jpg",
+            "https://i.dummyjson.com/data/products/10/2.jpg",
+            "https://i.dummyjson.com/data/products/10/3.jpg",
+            "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "LENOVO Yoga Slim 6",
+        "description": "LENOVO Yoga Slim 6, INTEL CORE I5-1240P, RAM 16 GB, SSD 512 GB, INTEL IRIS XE GRAPHICS",
+        "price": 1100,
+        "rating": 4.68,
+        "brand": "Lenovo Yoga",
+        "category": "laptops",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h11/h85/29839917514782.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h69/ha9/29839918235678.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h7b/hdd/29839918137374.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h5f/h64/29839918039070.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h11/h85/29839917514782.jpg"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "LENOVO YLegion5 Pro 16IAH7H",
+        "description": "LENOVO YLegion5 Pro 16IAH7H,INTEL CORE I7-12700H, RAM 32 GB, SSD 1000 GB, NVIDIA GEFORCE RTX3060",
+        "price": 1350,
+        "rating": 4.53,
+        "brand": "Lenovo Legion",
+        "category": "laptops",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h41/h18/28709639290910.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h70/hdf/28709640732702.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h53/h78/28709640536094.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h31/h36/28709640339486.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h41/h18/28709639290910.jpg"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "LENOVO LegionPro 5 16IRX8 82WK004JBM",
+        "description": "LENOVO LegionPro 5 16IRX8 82WK004JBM,INTEL CORE I7-13700HX, RAM 32 GB, SSD 1000 GB, NVIDIA GEFORCE RTX4070",
+        "price": 2100,
+        "rating": 4.21,
+        "brand": "Lenovo Legion",
+        "category": "laptops",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h05/h90/29833761030174.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h32/h19/29833762471966.jpg",
+            "https://www.technopolis.bg/medias/sys_master/he5/hf6/29833762275358.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h73/hb2/29833762078750.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h05/h90/29833761030174.jpg"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "ASUS TUF Gaming F15FX507ZV4-HQ039",
+        "description": "ASUS TUF Gaming F15FX507ZV4-HQ039,INTEL CORE I7-12700H, RAM 16 GB, SSD 512 GB, NVIDIA GEFORCE RTX4060",
+        "price": 1400,
+        "rating": 4.15,
+        "brand": "Asus TUG Gaming",
+        "category": "laptops",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/ha8/h11/29648699359262.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/hbd/h89/29648700604446.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h9b/h47/29648700407838.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h72/h4a/29648700211230.jpg",
+            "https://www.technopolis.bg/medias/sys_master/ha8/h11/29648699359262.jpg"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "ASUS ROG Strix G16G614JV-N3180",
+        "description": "ASUS ROG Strix G16G614JV-N3180,INTEL CORE I7-13650HX, RAM 16 GB, SSD 1000 GB, NVIDIA GEFORCE RTX4060",
+        "price": 1750,
+        "rating": 4.82,
+        "brand": "Asus ROG Strix",
+        "category": "laptops",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h12/hbe/30321985257502.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/hf8/h88/30321986895902.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hcb/hce/30321986699294.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h96/h3e/30321986306078.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h12/hbe/30321985257502.jpg"
+        ]
+    },
+    {
+        "id": 19,
+        "title": "HP SPECTREX360 14-EF0039NN 76Z63EA",
+        "description": "HP SPECTREX360 14-EF0039NN 76Z63EA, INTEL CORE I7-1255U, RAM 16 GB, SSD 1000 GB, INTEL IRIS XE GRAPHICS",
+        "price": 1700,
+        "rating": 3.83,
+        "brand": "HP SPECTREX360",
+        "category": "laptops",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/hdc/ha4/30908173844510.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h7d/h79/30908196323358.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h56/h74/30908196519966.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h0b/h35/30908196126750.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hdc/ha4/30908173844510.jpg"
+        ]
+    },
+    {
+        "id": 20,
+        "title": "HP OMEN 16-C0010NU",
+        "description": "HP OMEN 16-C0010NU, AMD RYZEN 7 5800H, RAM 16 GB, SSD 1000 GB, NVIDIA GEFORCE RTX3070",
+        "price": 1500,
+        "rating": 3.20,
+        "brand": "HP OMEN",
+        "category": "laptops",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/hdc/ha4/30908173844510.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h7d/h79/30908196323358.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h56/h74/30908196519966.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h0b/h35/30908196126750.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hdc/ha4/30908173844510.jpg"
+        ]
+    },
+    {
+        "id": 21,
+        "title": "GPLAY WHITE MADNESS",
+        "description": "GPLAY WHITE MADNESS, INTEL CORE I5-11600K, RTX 3060 GAMING OC, 8+8 GB, 3200 MHz",
+        "price": 1500,
+        "rating": 4.90,
+        "brand": "GPLAY",
+        "category": "desktop",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h63/h77/27367981514782.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/hf9/hc6/27367981842462.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h53/hd3/27368042725406.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h31/h91/27368042922014.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h63/h77/27367981514782.jpg"
+        ]
+    },
+    {
+        "id": 22,
+        "title": "GPLAY Matte Black TI",
+        "description": "GPLAY Matte Black TI AMD RYZEN 5 5600X MPK, RTX 3060 TI EAGLE OC REV 2.0, 8+8 GB, 3200 MHz",
+        "price": 1400,
+        "rating": 4.73,
+        "brand": "GPLAY",
+        "category": "desktop",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h9d/h76/27367980695582.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h5f/h4b/27367981088798.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h34/h61/27368042266654.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hc9/hcd/27368042528798.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h63/h77/27367981514782.jpg"
+        ]
+    },
+    {
+        "id": 23,
+        "title": "GPLAY TUF",
+        "description": "GPLAY TUF RTX 2060 Powered by ASUS AMD RYZEN 5 3600, DUAL RTX2060 OC EDITION EVO, 8+8 GB, 3200 MHz",
+        "price": 1400,
+        "rating": 4.71,
+        "brand": "GPLAY",
+        "category": "desktop",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/hba/ha4/15639586930718.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/hde/h06/15483537293342.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h05/h0c/15483537489950.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hba/ha4/15639586930718.jpg"
+        ]
+    },
+    {
+        "id": 24,
+        "title": "GPLAY Fighter XT",
+        "description": "GPLAY Fighter XT Red INTEL CORE I5-11400F, FIGHTER RADEON RX 6600XT, 8+8 GB, 3200 MHz",
+        "price": 1300,
+        "rating": 4.56,
+        "brand": "GPLAY",
+        "category": "desktop",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/hb3/hec/16973515784222.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h57/h9c/16973516931102.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h78/h53/16973517193246.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hb3/hec/16973515784222.jpg"
+        ]
+    },
+    {
+        "id": 25,
+        "title": "GPLAY RTX",
+        "description": "GPLAY RTX 3060 DUAL AMD RYZEN 5 5600, NVIDIA GEFORCE RTX 3060, 8+8 GB, 3200 MHz",
+        "price": 1300,
+        "rating": 4.32,
+        "brand": "GPLAY",
+        "category": "desktop",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h68/h89/28599883464734.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h19/h26/28599884251166.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hf2/h20/28599884447774.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h68/h89/28599883464734.jpg"
+        ]
+    },
+    {
+        "id": 26,
+        "title": "ASUS ROG StrixG15DK-WB7721",
+        "description": "ASUS ROG StrixG15DK-WB7721 HDD 2000 GB, AMD RYZEN 7 5800X, NVIDIA GEFORCE RTX 3070, 8+8 GB, 3200 MHz",
+        "price": 1300,
+        "rating": 4.32,
+        "brand": "Asus",
+        "category": "desktop",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/hf0/h86/26855599046686.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h0b/hc7/26855600029726.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h2c/hfd/26855599833118.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hf0/h86/26855599046686.jpg"
+        ]
+    },
+    {
+        "id": 27,
+        "title": "ASUS ROG StrixG15CF-WB7823",
+        "description": "ASUS ROG StrixG15CF-WB7823 HDD 2000 GB, INTEL CORE I7-12700F, NVIDIA GEFORCE RTX 3080, 8+8 GB, 3200 MHz",
+        "price": 1325,
+        "rating": 4.22,
+        "brand": "Asus",
+        "category": "desktop",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h0f/hf1/28510199382046.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h81/h39/28510200168478.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h0f/hf1/28510199382046.jpg"
+        ]
+    },
+    {
+        "id": 28,
+        "title": "LOGITECH G PRO",
+        "description": "LOGITECH G PRO WS 910-005272",
+        "price": 120,
+        "rating": 4.98,
+        "brand": "Logitech",
+        "category": "mouse",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/hc7/h20/14704401121310.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h71/ha8/14704436609054.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h8b/h75/14704437002270.jpg"
+        ]
+    },
+    {
+        "id": 29,
+        "title": "LOGITECH G903",
+        "description": "LOGITECH G903 LIGHTSPEED 910-005672",
+        "price": 130,
+        "rating": 4.22,
+        "brand": "Logitech",
+        "category": "mouse",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/hef/h5b/12277441265694.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h3f/h51/12277441658910.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h7a/hfb/12277499920414.jpg"
+        ]
+    },
+    {
+        "id": 30,
+        "title": "LOGITECH G Pro X",
+        "description": "LOGITECH G Pro X Superlight 910-005942",
+        "price": 110,
+        "rating": 4.25,
+        "brand": "Logitech",
+        "category": "mouse",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h69/h53/17169181605918.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h70/h35/17169183113246.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h69/h53/17169181605918.jpg"
+        ]
+    },
+    {
+        "id": 31,
+        "title": "ALOGITECH G Pro X Superlight",
+        "description": "LOGITECH G Pro X Superlight 910-005880",
+        "price": 125,
+        "rating": 4.40,
+        "brand": "Logitech",
+        "category": "mouse",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/hd5/h22/17169183834142.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h6d/h1c/17169184784414.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h80/h0c/17169185177630.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hd5/h22/17169183834142.jpg"
+        ]
+    },
+    {
+        "id": 32,
+        "title": "LOGITECH G502 X PLUS",
+        "description": "LOGITECH G502 X PLUS WH 910-006171 RGB",
+        "price": 150,
+        "rating": 4.70,
+        "brand": "Logitech",
+        "category": "mouse",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h63/h25/28109454737438.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h6c/hca/28109455523870.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h0c/h5d/28109456113694.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h63/h25/28109454737438.jpg"
+        ]
+    },
+    {
+        "id": 33,
+        "title": "RAZER VIPER",
+        "description": "RAZER VIPER 8KHZ RZ01-03580100-R3M1",
+        "price": 70,
+        "rating": 4.53,
+        "brand": "Razer",
+        "category": "mouse",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/hc0/h26/26589567483934.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h42/hd6/26589568270366.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hc2/hec/26589568663582.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hc0/h26/26589567483934.jpg"
+        ]
+    },
+    {
+        "id": 34,
+        "title": "RAZER BASILISK",
+        "description": "RAZER BASILISK V3 RZ01-04000100-R3M1",
+        "price": 80,
+        "rating": 4.80,
+        "brand": "Razer",
+        "category": "mouse",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h92/h57/26589571809310.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h13/h08/26589572595742.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h5e/h47/26589572988958.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h92/h57/26589571809310.jpg"
+        ]
+    },
+    {
+        "id": 35,
+        "title": "RAZER OROCHI V2",
+        "description": "RAZER OROCHI V2 WH RZ01-03730400-R3G",
+        "price": 74,
+        "rating": 4.80,
+        "brand": "Razer",
+        "category": "mouse",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h27/h7e/26589565845534.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h79/hc9/26589566697502.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h64/hf4/26589566894110.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h27/h7e/26589565845534.jpg"
+        ]
+    },
+    {
+        "id": 36,
+        "title": "RAZER",
+        "description": "RAZER Naga Trinity",
+        "price": 50,
+        "rating": 4.31,
+        "brand": "Razer",
+        "category": "mouse",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h28/hf5/27236671979550.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h40/h95/27236717068318.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hb6/h38/27236717461534.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h28/hf5/27236671979550.jpg"
+        ]
+    },
+    {
+        "id": 37,
+        "title": "DELTACO GAMING GEAR KIT",
+        "description": "DELTACO GAMING GEAR KIT GAM-023",
+        "price": 25,
+        "rating": 3.20,
+        "brand": "Deltaco",
+        "category": "keyboard",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/hc9/h39/16634013679646.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/hc9/h39/16634013679646.jpg"
+        ]
+
+
+
+
+    },
+
+    {
+        "id": 38,
+        "title": "RAZER",
+        "description": "Kit RAZER Power Up Bundle",
+        "price": 100,
+        "rating": 4.81,
+        "brand": "Razer",
+        "category": "keyboard",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/haf/h4b/13903016362014.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h57/h0f/13903033204766.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hff/hc2/13903033794590.jpg",
+            "https://www.technopolis.bg/medias/sys_master/haf/h4b/13903016362014.jpg"
+        ]
+
+
+
+    },
+
+    {
+        "id": 39,
+        "title": "COUGAR",
+        "description": "Kit COUGAR DEATHFIRE EX",
+        "price": 110,
+        "rating": 4.56,
+        "brand": "Cougar",
+        "category": "keyboard",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h39/h48/11472641425438.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h39/h48/11472641425438.jpg"
+        ]
+
+
+
+    },
+    {
+
+
+        "id": 40,
+        "title": "GENESIS COBALT",
+        "description": "GENESIS COBALT 330 RGB NCG-1469",
+        "price": 100,
+        "rating": 4.81,
+        "brand": "Genesis",
+        "category": "keyboard",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h02/h29/12241317003294.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/hf8/hf2/12241317986334.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h2c/h31/12241318182942.jpg",
+            "https://www.technopolis.bg/medias/sys_master/h02/h29/12241317003294.jpg"
+        ]
+
+
+
+    },
+
+    {
+        "id": 41,
+        "title": "1XTRIKE",
+        "description": "Kit 4 в 1XTRIKE ME CMX-410 EN",
+        "price": 88,
+        "rating": 4.50,
+        "brand": "Xtrike",
+        "category": "keyboard",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/hc1/h49/28802248966174.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h05/he7/28802250014750.jpg",
+            "https://www.technopolis.bg/medias/sys_master/ha5/haa/28802249818142.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hc1/h49/28802248966174.jpg"
+        ]
+
+
+    },
+
+    {
+        "id": 42,
+        "title": "1TRACER",
+        "description": "Kit 4 в 1TRACER MAMOOTH",
+        "price": 68,
+        "rating": 4.10,
+        "brand": "Tracer",
+        "category": "keyboard",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/h69/h00/15532126109726.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h69/h00/15532126109726.jpg"
+        ]
+
+
+    },
+    {
+        "id": 43,
+        "title": "1XTRIKE",
+        "description": "Kit 4 в 1XTRIKE ME CMX-410 EN",
+        "price": 88,
+        "rating": 4.50,
+        "brand": "Xtrike",
+        "category": "keyboard",
+        "thumbnail": "https://www.technopolis.bg/medias/sys_master/hc1/h49/28802248966174.jpg",
+        "images": [
+            "https://www.technopolis.bg/medias/sys_master/h05/he7/28802250014750.jpg",
+            "https://www.technopolis.bg/medias/sys_master/ha5/haa/28802249818142.jpg",
+            "https://www.technopolis.bg/medias/sys_master/hc1/h49/28802248966174.jpg"
+        ]
+
+
+    }
+
+
+
+]
