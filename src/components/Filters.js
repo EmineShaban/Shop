@@ -1,28 +1,38 @@
 import './Filters.css';
- 
-function Filters() {
-  return (
-    <div>
+import { Link } from "react-router-dom"
 
-<ul>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#phone">Phone</a>
-          </li>
-          <li>
-            <a href="#laptop">Laptop</a>
-          </li>
-          <li>
-            <a href="#mouse">Mouse</a>
-          </li>
-          <li>
-            <a href="#keyboard">Keyboard</a>
-          </li>
-        </ul>
-            </div>
-  )
+function Filters() {
+    return (
+        <div>
+
+            <ul className='filters'>
+                <li>
+                    <Link to={'/'}><a>Home</a></Link>
+
+                </li>
+                <li>
+                    <Link to={'/phone'}><a>Phone</a></Link>
+
+                </li>
+                <li>
+                    <Link to={'/desktop'}><a>Desktop</a></Link>
+
+                </li>
+                <li>
+                    <Link to={'/laptop'}><a>Laptop</a></Link>
+
+                </li>
+                <li>
+                    <Link to={'/mouse'}><a>Mouse</a></Link>
+
+                </li>
+                <li>
+                    <Link to={'/keyboard'}><a>Keyboard</a></Link>
+
+                </li>
+            </ul>
+        </div>
+    )
 }
 
 

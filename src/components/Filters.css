@@ -4,8 +4,8 @@ ul {
     padding: 0;
   }
   
-  ul li {
-    
+  ul.filters li {
+    display: block;
     margin: 25px;
   }
   
