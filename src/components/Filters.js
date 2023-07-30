@@ -1,35 +1,47 @@
 import './Filters.css';
 import { Link } from "react-router-dom"
+import data from "../data.json"
+import { useLocation } from "react-router-dom";
+
 
 function Filters() {
+
+
+
+    const location = useLocation();
+    let nameLink = location?.pathname;
+    console.log(nameLink)
+    let categoryList = []
+    if (nameLink === '/') {
+        console.log('fff')
+        data.map((product, index) => {
+            if (!categoryList.includes(product.brand)) {
+
+                categoryList.push(product.brand)
+            }
+            console.log(categoryList)
+
+            return categoryList
+        }
+        )
+    }
+
+
+    function change(e) {
+        console.log(e.target.value)
+    }
+
     return (
         <div>
 
             <ul className='filters'>
-                <li>
-                    <Link to={'/'}><a>Home</a></Link>
+                {categoryList.map((product, index) => (
+                    <div className="brand">
+                        <input type="checkbox" id="brand" name="brand" value={product} onClick={change} />{product}
+                    </div>
+                ))}
 
-                </li>
-                <li>
-                    <Link to={'/phone'}><a>Phone</a></Link>
 
-                </li>
-                <li>
-                    <Link to={'/desktop'}><a>Desktop</a></Link>
-
-                </li>
-                <li>
-                    <Link to={'/laptop'}><a>Laptop</a></Link>
-
-                </li>
-                <li>
-                    <Link to={'/mouse'}><a>Mouse</a></Link>
-
-                </li>
-                <li>
-                    <Link to={'/keyboard'}><a>Keyboard</a></Link>
-
-                </li>
             </ul>
         </div>
     )

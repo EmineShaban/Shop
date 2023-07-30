@@ -56,9 +56,10 @@ function App() {
 
 
       <div className='container'>
+      
         <Filters />
-        {/* <ListOfProducts /> */}
-        <Routes>
+        
+         <Routes>
             <Route path='/' element={<ListOfProducts />} />
             <Route path='/phone' element={<Phone />} />
             <Route path='/laptop' element={<Laptop />} />
@@ -68,18 +69,20 @@ function App() {
             <Route path='/policy' element={<Policy />} />
             <Route path='/terms' element={<Terms />} />
             <Route path='/contact' element={<Contact />} />
-
-            
-
           </Routes>
+ 
       </div>
+      <div className='container'>
 
+     
+      </div>
 
 <footer>
   <div>
 
   
   <ul>
+    
     <li>
     <Link to={'/contact'}><a>Contact Us</a></Link>
 

@@ -1,6 +1,7 @@
 import './ListOfProducts.css';
 import data from '../data.json'
 import { useState } from 'react';
+import Product from './Product';
 function ListOfProducts() {
 
     const productPerRow = 6;
@@ -20,8 +21,7 @@ function ListOfProducts() {
         
         arrData.push(product)
        
-        console.log(arrData)
-        return data
+         return data
     }
     )
 
@@ -67,10 +67,9 @@ function order(){
                     </div>                </div>
 
             </div>
-            <div className='list-of-product'>
-
-
-                { selectedOption == "Za" ? data.sort((a, b) => (b.title > a.title) ? 1 : -1).slice(0, next).map((product, index) => (
+ 
+<Product data={data}/>
+                {/* { selectedOption == "Za" ? data.sort((a, b) => (b.title > a.title) ? 1 : -1).slice(0, next).map((product, index) => (
                     <div className='div-product' key={index}>
 
 
@@ -150,7 +149,7 @@ function order(){
                             <button onClick={order} className='order'>ORDER NOW</button>
                         </div>
                     </div>
-                )) }
+                )) } */}
                  {/* {data.slice(0, next).map((product, index) => (
                     <div className='div-product' key={index}>
 
@@ -173,14 +172,13 @@ function order(){
                     </div>
                 )) } */}
 
-            </div>
-            <div className='load-more-div'>
+             {/* <div className='load-more-div'>
 
                 {next < data.length && (
                     <button className="load-more" onClick={handleMoreProducts} >Load more</button>
 
                 )}
-            </div>
+            </div> */}
 
         </div>
     )
