@@ -10,6 +10,9 @@ import { Link } from "react-router-dom"
 
 import { Routes, Route } from 'react-router-dom'
 import ListOfProducts from './components/ListOfProducts';
+import Policy from './components/additional/Policy';
+import Contact from './components/additional/Contact';
+import Terms from './components/additional/Terms';
 
 function App() {
   return (
@@ -62,6 +65,9 @@ function App() {
             <Route path='/desktop' element={<Desktop />} />
             <Route path='/mouse' element={<Mouse />} />
             <Route path='/keyboard' element={<Keyboard />} />
+            <Route path='/policy' element={<Policy />} />
+            <Route path='/terms' element={<Terms />} />
+            <Route path='/contact' element={<Contact />} />
 
             
 
@@ -69,7 +75,29 @@ function App() {
       </div>
 
 
+<footer>
+  <div>
 
+  
+  <ul>
+    <li>
+    <Link to={'/contact'}><a>Contact Us</a></Link>
+
+     </li>
+    <li>
+    <Link to={'/policy'}><a>Privacy Policy</a></Link>
+
+
+    </li>
+    <li>
+    <Link to={'/terms'}><a>Terms and Conditions</a></Link>
+
+     </li>
+  </ul>
+  <hr></hr>
+  <p>All rights reserved © Prom</p>
+  </div>
+</footer>
     </div>
   );
 }

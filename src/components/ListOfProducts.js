@@ -48,14 +48,15 @@ function order(){
 
     return (
         <div>
-            <div>
+            <div className='name-sort'>
                 <div className='name'>
                     <h1>ALL PRODUCTS</h1>
+                    <p>Choose your product!</p>
                 </div>
                 <div className='sort'>
                     <div>
 
-                        <label for="sorting">Sort by:</label>
+                        <label for="sorting">Sort by: </label>
                         <select name="sorting" id="sorting" value={selectedOption}
                             onChange={e => setselectedOption(e.target.value)}>
                             <option value="Az" selected>A-Z</option>

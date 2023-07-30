@@ -84,3 +84,20 @@ select{
   select:focus{
     outline:none;
   }
+
+  div.name-sort{
+    display: grid;
+    grid-template-columns: 1fr 0.3fr;
+    align-items: center;
+    padding: 0 25px;
+  }
+
+  div.name h1{
+    text-align: center;
+    /* margin: 0; */
+  }
+
+  div.name p{
+    text-align: center;
+    margin: 0;
+  }
