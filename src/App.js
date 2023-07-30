@@ -72,10 +72,8 @@ function App() {
           </Routes>
  
       </div>
-      <div className='container'>
-
-     
-      </div>
+      
+      
 
 <footer>
   <div>

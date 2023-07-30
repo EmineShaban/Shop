@@ -19,7 +19,7 @@ function Filters() {
 
                 categoryList.push(product.brand)
             }
-            console.log(categoryList)
+            // console.log(categoryList)
 
             return categoryList
         }
@@ -35,11 +35,11 @@ function Filters() {
         <div>
 
             <ul className='filters'>
-                {categoryList.map((product, index) => (
+                {/* {categoryList.map((product, index) => (
                     <div className="brand">
                         <input type="checkbox" id="brand" name="brand" value={product} onClick={change} />{product}
                     </div>
-                ))}
+                ))} */}
 
 
             </ul>

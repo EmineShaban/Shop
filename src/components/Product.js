@@ -1,22 +1,22 @@
 import './ListOfProducts.css';
-import data from '../data.json'
 import { useState } from 'react';
+import { useLocation } from "react-router-dom";
 
-function Product() {
-    let phones = []
-    let lengthPhones = []
+
+function Product({ data }) {
 
     const productPerRow = 6;
 
-    data.map(data =>{
-        // console.log(data)
-        if(data.category === 'smartphones'){
-            lengthPhones.push(data)
-            // return phones
-        }
-        return lengthPhones
+    console.log(data)
 
-    })
+    const location = useLocation();
+    let nameLink = location?.pathname;
+    console.log(nameLink)
+
+
+    function order() {
+        alert('Product added to cart')
+    }
 
 
 
@@ -24,63 +24,124 @@ function Product() {
     const handleMoreProducts = () => {
         console.log('aaa')
         setNext(next + productPerRow);
-      };
-
-    data.slice(0, next).map(data =>{
-        // console.log(data)
-        if(data.category === 'smartphones'){
-             phones.push(data)
-            // return phones
-        }
-        return phones
-
-    })
+    };
 
 
-    
-
-  return (
-    <div>
-    <div className='list-of-product'>
-
-   
-    {phones.map((phone, index) =>(
-         
-     <div className='div-product' key={index}>
-
-         
-         <h3 className='title' >{phone.title}</h3>
-         <div className='product-img'> 
- 
-         <img src={phone.thumbnail} alt="product"/>
-         </div>
-         <div className='price-stars'>
-         <p className='price'>{phone.price}$</p>
-         <p>STARS</p>
-         </div>
-         <p className='descr'>{phone.description}</p>
-         <br/>
-         <div className='div-order'>
- 
-         <button className='order'>ORDER NOW</button>
-         </div>
-     </div>
-    ))}
- 
- 
-     </div>
-
-     <div className='load-more-div'>
-
-{next < lengthPhones.length && (
-<button className="load-more" onClick={handleMoreProducts} >Load more</button>
-     
-    )}
-</div>
-</div>
 
 
-  )
+    const [selectedOption, setselectedOption] = useState('Az');
+
+    if (selectedOption == 'Low') {
+        data.sort((a, b) => (a.price > b.price) ? 1 : -1)
+        //  return <Product data={data}/>
+    } else if (selectedOption == 'High') {
+        data.sort((a, b) => (b.price > a.price) ? 1 : -1)
+
+        // return <Product data={data}/>
+        // data.sort((a, b) => (b.price > a.price) ? 1 : -1)
+
+    } else if (selectedOption == 'Az') {
+        data.sort((a, b) => (a.title > b.title) ? 1 : -1)
+
+        // return data
+        // data.sort((a, b) => (b.price > a.price) ? 1 : -1)
+
+    } else if (selectedOption == 'Za') {
+        data.sort((a, b) => (b.title > a.title) ? 1 : -1)
+
+        // return data
+        // data.sort((a, b) => (b.price > a.price) ? 1 : -1)
+
+    }
+
+
+    return (
+        <div>
+            <div className='name-sort'>
+                {nameLink === '/' ?
+                    <div className='name'>
+                        <h1>ALL PRODUCTS</h1>
+                        <p>Choose your product!</p>
+                    </div>
+                    : nameLink === '/phone' ?
+                        <div className='name'>
+                            <h1>PHONE</h1>
+                            <p>Choose your phone!</p>
+                        </div>
+                        : nameLink === '/desktop' ?
+                            <div className='name'>
+                                <h1>desktop</h1>
+                                <p>Choose your desktop!</p>
+                            </div>
+                            : nameLink === '/mouse' ?
+                                <div className='name'>
+                                    <h1>mouse</h1>
+                                    <p>Choose your mouse!</p>
+                                </div>
+                                : nameLink === '/keyboard' ?
+                                    <div className='name'>
+                                        <h1>keyboard</h1>
+                                        <p>Choose your keyboard!</p>
+                                    </div>
+                                    : <div className='name'>
+                                        <h1>laptop</h1>
+                                        <p>Choose your laptop!</p>
+                                    </div>
+                }
+
+
+                <div className='sort'>
+
+                    <label for="sorting">Sort by: </label>
+                    <select name="sorting" id="sorting" value={selectedOption}
+                        onChange={e => setselectedOption(e.target.value)}>
+                        <option value="Az" selected>A-Z</option>
+                        <option value="Za"  >Z-A</option>
+                        <option value="Low" >Price low</option>
+                        <option value="High"  >Price high</option>
+                    </select>
+                </div>
+            </div>
+
+            <div className='list-of-product'>
+
+
+                {data.slice(0, next).map((phone, index) => (
+
+                    <div className='div-product' key={index}>
+
+
+                        <h3 className='title' >{phone.title}</h3>
+                        <div className='product-img'>
+
+                            <img src={phone.thumbnail} alt="product" />
+                        </div>
+                        <div className='price-stars'>
+                            <p className='price'>{phone.price}$</p>
+                            <p>STARS</p>
+                        </div>
+                        <p className='descr'>{phone.description}</p>
+                        <br />
+                        <div className='div-order'>
+
+                            <button onClick={order} className='order'>ORDER NOW</button>
+                        </div>
+                    </div>
+                ))}
+
+
+            </div>
+
+            <div className='load-more-div'>
+
+                {next < data.length && (
+                    <button className="load-more" onClick={handleMoreProducts} >Load more</button>
+                )}
+            </div>
+        </div>
+
+
+    )
 }
 
 
