@@ -57,7 +57,7 @@ function App() {
 
       <div className='container'>
       
-        <Filters />
+        {/* <Filters /> */}
         
          <Routes>
             <Route path='/' element={<ListOfProducts />} />

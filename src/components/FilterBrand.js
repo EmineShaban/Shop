@@ -4,32 +4,28 @@ import { useLocation } from "react-router-dom";
 import ListOfProducts from './ListOfProducts';
 import Product from './Product';
 
-function Filters(targetE) {
-
-
-
-   
-
-    let arrData = []
-    
-        console.log(targetE)
-        data.map((product, index) => {
-            if (product.brand === targetE) {
-                arrData.push(product)
-            }
-            console.log(arrData)
-            
-        })
-        return <ListOfProducts sortArr={arrData} />
-        // return <Product sortArr={arrData} />
+function FilterBrand(arrData) {
  
+    let dataF = []
+    
+        console.log(arrData)
+        data.map((product, index) => {
+            if (product.brand === arrData) {
+                dataF.push(product)
+            }
+            console.log(dataF)
+            
+        }) 
+        
     return (
         <div>
+           
+        <Product data={dataF} />
+    
 
-          
-        </div>
+</div>
     )
 }
 
 
-export default Filters;
+export default FilterBrand;
