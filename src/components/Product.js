@@ -22,9 +22,21 @@ function Product({ data }) {
 
 
     const [next, setNext] = useState(productPerRow);
+    const [counter, setCounter] = useState(6);
+
     const handleMoreProducts = () => {
         console.log('aaa')
         setNext(next + productPerRow);
+        if(counter + 6 < data.length){
+
+            setCounter(counter + 6)
+        }else if(counter< productPerRow){
+            setCounter(data.length)
+
+        }else{
+            setCounter(data.length)
+
+        }
     };
 
 
@@ -298,7 +310,8 @@ function Product({ data }) {
 
                     {next < data.length && (
                         <button className="load-more" onClick={handleMoreProducts} >Load more</button>
-                    )}
+                        )}
+                        <p>{counter} of over {data.length} results</p>
                 </div>
             </div>
         </div>
