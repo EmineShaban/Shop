@@ -1,7 +1,6 @@
 import './ListOfProducts.css';
 import data from '../data.json'
-import { useState } from 'react';
-import ListOfProducts from './ListOfProducts';
+ import ListOfProducts from './ListOfProducts';
 
 function Laptop() {
     let mouses = []

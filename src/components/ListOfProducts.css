@@ -2,8 +2,7 @@ div.div-product{
     border: 1px solid blueviolet;
     margin: 25px;
     padding: 25px;
-    /* height: 530px; */
-    position: relative;
+     position: relative;
 }
 
 div.list-of-product{
@@ -94,8 +93,7 @@ select{
 
   div.name h1{
     text-align: center;
-    /* margin: 0; */
-  }
+   }
 
   div.name p{
     text-align: center;

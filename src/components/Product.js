@@ -32,15 +32,15 @@ function Product({ data }) {
 
     const [selectedOption, setselectedOption] = useState('Az');
 
-    if (selectedOption == 'Low') {
+    if (selectedOption === 'Low') {
         data.sort((a, b) => (a.price > b.price) ? 1 : -1)
-    } else if (selectedOption == 'High') {
+    } else if (selectedOption === 'High') {
         data.sort((a, b) => (b.price > a.price) ? 1 : -1)
 
-    } else if (selectedOption == 'Az') {
+    } else if (selectedOption === 'Az') {
         data.sort((a, b) => (a.title > b.title) ? 1 : -1)
 
-    } else if (selectedOption == 'Za') {
+    } else if (selectedOption === 'Za') {
         data.sort((a, b) => (b.title > a.title) ? 1 : -1)
 
     }
@@ -117,6 +117,7 @@ function Product({ data }) {
             if (maxNum < min) {
                 maxNum = min
             }
+             
         })
 
         console.log(minNum)
@@ -174,11 +175,8 @@ function Product({ data }) {
     if (selectedPrice === '$0-$200') {
 
 
-        // data.map((product, index) => {
-        data = data.filter(pr => pr.price < 200)
-        console.log(data)
-        // return data
-        // })
+         data = data.filter(pr => pr.price < 200)
+        console.log(data) 
 
     } else if (selectedPrice === '$200-$500') {
         data = data.filter(pr => pr.price < 500 && pr.price > 200)
@@ -270,21 +268,21 @@ function Product({ data }) {
                 <div className='list-of-product'>
 
 
-                    {data.slice(0, next).map((phone, index) => (
+                    {data.slice(0, next).map((product, index) => (
 
                         <div className='div-product' key={index}>
 
 
-                            <h3 className='title' >{phone.title}</h3>
+                            <h3 className='title' >{product.title}</h3>
                             <div className='product-img'>
 
-                                <img src={phone.thumbnail} alt="product" />
+                                <img src={product.thumbnail} alt="product" />
                             </div>
                             <div className='price-stars'>
-                                <p className='price'>{phone.price}$</p>
-                                <p>Raiting {phone.rating} ★</p>
+                                <p className='price'>{product.price}$</p>
+                                <p>Raiting {product.rating} ★</p>
                             </div>
-                            <p className='descr'>{phone.description}</p>
+                            <p className='descr'>{product.description}</p>
                             <br />
                             <div className='div-order'>
 

@@ -27,18 +27,9 @@ if(sortArr === undefined || sortArr === [] ){
     }
     )
 }
-
-  
-
-
-
-
     return (
         <div>
-           
                 <Product data={arrData} />
-            
-
         </div>
     )
 }
