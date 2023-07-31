@@ -6,16 +6,16 @@ import ListOfProducts from './ListOfProducts';
 function Sort({data}) {
     const [selectedOption, setselectedOption] = useState('');
 
-    if(selectedOption == 'Low'){
+    if(selectedOption === 'Low'){
              data.sort((a, b) => (a.price > b.price)? 1 : -1)
              return <Product data={data}/>
-         } else if(selectedOption == 'Az'){
+         } else if(selectedOption === 'Az'){
             data.sort((a, b) => (a.title > b.title)? 1 : -1)
-
+ 
             return <Product data={data}/>
             // data.sort((a, b) => (b.price > a.price) ? 1 : -1)
     
-         } else if(selectedOption == 'Az'){
+         } else if(selectedOption === 'Az'){
             data.sort((a, b) => (a.title > b.title)? 1 : -1)
 
             return <Product data={data}/>
