@@ -22,18 +22,19 @@ function Product({ data }) {
 
 
     const [next, setNext] = useState(productPerRow);
+
     const [counter, setCounter] = useState(6);
 
     const handleMoreProducts = () => {
         console.log('aaa')
         setNext(next + productPerRow);
-        if(counter + 6 < data.length){
+        if (counter + 6 < data.length) {
 
             setCounter(counter + 6)
-        }else if(counter< productPerRow){
+        } else if (counter < productPerRow) {
             setCounter(data.length)
 
-        }else{
+        } else {
             setCounter(data.length)
 
         }
@@ -129,7 +130,7 @@ function Product({ data }) {
             if (maxNum < min) {
                 maxNum = min
             }
-             
+
         })
 
         console.log(minNum)
@@ -187,8 +188,8 @@ function Product({ data }) {
     if (selectedPrice === '$0-$200') {
 
 
-         data = data.filter(pr => pr.price < 200)
-        console.log(data) 
+        data = data.filter(pr => pr.price < 200)
+        console.log(data)
 
     } else if (selectedPrice === '$200-$500') {
         data = data.filter(pr => pr.price < 500 && pr.price > 200)
@@ -204,6 +205,8 @@ function Product({ data }) {
 
     }
 
+
+   
 
 
 
@@ -291,7 +294,14 @@ function Product({ data }) {
                                 <img src={product.thumbnail} alt="product" />
                             </div>
                             <div className='price-stars'>
-                                <p className='price'>{product.price}$</p>
+
+                                <p className='price'>
+                                    {product?.priceDiscounted ? product.priceDiscounted : product.price
+                                    }
+                                    $
+                                </p>
+                                 
+
                                 <p>Raiting {product.rating} ★</p>
                             </div>
                             <p className='descr'>{product.description}</p>
@@ -310,8 +320,8 @@ function Product({ data }) {
 
                     {next < data.length && (
                         <button className="load-more" onClick={handleMoreProducts} >Load more</button>
-                        )}
-                        <p>{counter} of over {data.length} results</p>
+                    )}
+                    <p>{counter} of over {data.length} results</p>
                 </div>
             </div>
         </div>
