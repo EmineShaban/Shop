@@ -1,6 +1,5 @@
 import './App.css';
-import Filters from './components/Filters';
-import Phone from './components/Phone';
+ import Phone from './components/Phone';
 import Laptop from './components/Laptop';
 import Desktop from './components/Desktop';
 import Keyboard from './components/Keyboard';

@@ -48,87 +48,152 @@ function Product({ data }) {
 
 
     const [selectedBrand, setselectedBrand] = useState('');
-    const [checked, setChecked] = useState([]);
 
     let categoryList = []
-    // let checked = []
+
     console.log(selectedBrand)
+
     if (selectedBrand === '') {
         console.log('a')
-        // data = data.filter(pr => pr.brand === selectedBrand)
         data.map((product, index) => {
-            // if (product.category === 'smartphones') {
             if (!categoryList.includes(product.brand)) {
                 categoryList.push(product.brand)
                 return data
             }
-
-            // }
             return categoryList
         })
     } else {
-        
-            data.map((product, index) => {
-                // if (product.category === 'smartphones') {
-                if (!categoryList.includes(product.brand)) {
-                    categoryList.push(product.brand)
-                    data = data.filter(pr => pr.brand === selectedBrand)
-                    return data
-                }
 
-
-                // }
-                return categoryList
+        data.map((product, index) => {
+            if (!categoryList.includes(product.brand)) {
+                categoryList.push(product.brand)
+                data = data.filter(pr => pr.brand === selectedBrand)
+                return data
             }
-            )
-            //             let newArr = []
-
-            //             checked?.map((prod, i) => {
-
-            //                 console.log(prod)
-            //                 data.filter(pr => {
-            //                   if(pr.brand === prod){
-            //                     console.log(pr)
-            //                     // newArr.push(pr)
-            // return newArr
-            //                   }
-            //                 })
-            //                 // arr.concat(newArr)
-            //                 // newArr = arr
-            //                 // newArr.push(arr)
-            //                 console.log(newArr)
 
 
+            return categoryList
+        }
+        )
 
-            //             })
-            // data = newArr
-            // return data
-        
-        // else {
-        //     data.map((product, index) => {
-        //         // if (product.category === 'smartphones') {
-        //         if (!categoryList.includes(product.brand)) {
-        //             categoryList.push(product.brand)
-        //             return data
-        //         }
-
-        //         // }
-        //         return categoryList
-        //     })
-        // }
 
     }
 
-    // data.map((product, index) => { 
-    // if(selectedBrand === product.brand){
-    //         arrData.push(product)
-    //         console.log(arrData)
+
+    let priceFilter = [
+        {
+            "id": 1,
+            "price": "$0-$200",
+        },
+        {
+            "id": 2,
+            "price": "$200-$500",
+        },
+        {
+            "id": 3,
+            "price": "$500-$1000",
+        },
+        {
+            "id": 4,
+            "price": '$1000-$1500',
+        },
+        {
+            "id": 5,
+            "price": 'over $1500',
+        },
+    ]
+
+    const [selectedPrice, setselectedPrice] = useState('');
+
+    if (nameLink) {
+        let minNum = Number.MAX_VALUE;
+        let maxNum = Number.MIN_VALUE;
+
+        data.map((product, index) => {
+            const min = Math.min(product.price)
+            if (minNum > min) {
+                minNum = min
+            }
+            if (maxNum < min) {
+                maxNum = min
+            }
+        })
+
+        console.log(minNum)
+        console.log(maxNum)
+
+        if (minNum >= 1500) {
+            console.log('1')
+            priceFilter.splice(0, 4)
+
+        } else if (minNum >= 1000) {
+            console.log('2')
+
+            priceFilter.splice(0, 3)
+
+        } else if (minNum >= 500) {
+            console.log('3')
+
+            priceFilter.splice(0, 2)
+
+        } else if (minNum >= 200) {
+            console.log('4')
+
+            priceFilter.splice(0, 1)
+
+        }
 
 
-    //     }
-    //     return <FilterBrand data={arrData}/>
 
-    // })
+        if (maxNum <= 200) {
+            priceFilter.splice(1, 4)
+
+            console.log('11')
+
+        } else if (maxNum <= 500) {
+            priceFilter.splice(2, 3)
+
+            console.log('22')
+
+        } else if (maxNum <= 1000) {
+            priceFilter.splice(3, 2)
+
+            console.log('33')
+
+        } else if (maxNum <= 1500) {
+            priceFilter.splice(4, 1)
+
+            console.log('44')
+
+        }
+
+
+
+    }
+
+    if (selectedPrice === '$0-$200') {
+
+
+        // data.map((product, index) => {
+        data = data.filter(pr => pr.price < 200)
+        console.log(data)
+        // return data
+        // })
+
+    } else if (selectedPrice === '$200-$500') {
+        data = data.filter(pr => pr.price < 500 && pr.price > 200)
+
+    } else if (selectedPrice === '$500-$1000') {
+        data = data.filter(pr => pr.price < 1000 && pr.price > 500)
+
+    } else if (selectedPrice === '$1000-$1500') {
+        data = data.filter(pr => pr.price < 1500 && pr.price > 1000)
+
+    } else if (selectedPrice === 'over $1500') {
+        data = data.filter(pr => pr.price > 1500)
+
+    }
+
 
 
 
@@ -136,16 +201,21 @@ function Product({ data }) {
         <div className='filterProduct'>
             <div className='filterDiv'>
                 <ul className='filters'>
-                    <li>ddddd</li>
+                    <li>Brand Filter</li>
                     {categoryList.sort((a, b) => (a > b) ? 1 : -1).map((product, index) => (
                         <div key={index} className="brand">
                             <input type="radio" id="dewey" name="drone" value={product}
-                                onChange={e => setselectedBrand(e.target.value)} />
-                            <label for="dewey">{product}</label>
-                          
+                                onChange={e => setselectedBrand(e.target.value)} />{product}
                         </div>
                     ))}
 
+                    <li>Price Filter</li>
+                    {priceFilter.map((product, index) => (
+                        <div key={index} className="brand">
+                            <input type="radio" id="dewey" name="drone" value={product.price}
+                                onChange={e => setselectedPrice(e.target.value)} />{product.price}
+                        </div>
+                    ))}
 
                 </ul>
             </div>
@@ -212,7 +282,7 @@ function Product({ data }) {
                             </div>
                             <div className='price-stars'>
                                 <p className='price'>{phone.price}$</p>
-                                <p>STARS</p>
+                                <p>Raiting {phone.rating} ★</p>
                             </div>
                             <p className='descr'>{phone.description}</p>
                             <br />
