@@ -163,7 +163,7 @@
         "description": "GSM SAMSUNG GALAXY S23+ S916 LAVENDER 6.60 ",
         "price": 900,
         "rating": 4.72,
-        "brand": "SAMSUNG",
+        "brand": "Samsung",
         "category": "smartphones",
         "thumbnail": "https://www.technopolis.bg/medias/sys_master/h1b/h98/29619584040990.jpg",
         "images": [
@@ -180,7 +180,7 @@
         "description": "GSM SAMSUNG GALAXY Z FLIP5 F731 GRAPHITE 6.70, 512 GB, RAM 8 GB, 12+12 MP, 5G ",
         "price": 1150,
         "rating": 4.21,
-        "brand": "SAMSUNG",
+        "brand": "Samsung",
         "category": "smartphones",
         "thumbnail": "https://www.technopolis.bg/medias/sys_master/h18/h2e/31123723288606.jpg",
         "images": [
@@ -197,7 +197,7 @@
         "description": "GSM SAMSUNG GALAXY A04s A047 BLACK 6.50 32 GB, RAM 3 GB, 50+2+2 MP ",
         "price": 900,
         "rating": 4.72,
-        "brand": "SAMSUNG",
+        "brand": "Samsung",
         "category": "smartphones",
         "thumbnail": "https://www.technopolis.bg/medias/sys_master/h06/h0c/28174819196958.jpg",
         "images": [
@@ -231,7 +231,7 @@
         "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
         "price": 1099,
         "rating": 4.43,
-        "brand": "HP Pavilion",
+        "brand": "HP",
         "category": "laptops",
         "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
         "images": [
@@ -247,7 +247,7 @@
         "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
         "price": 1099,
         "rating": 4.43,
-        "brand": "HP Pavilion",
+        "brand": "HP",
         "category": "laptops",
         "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
         "images": [
@@ -263,7 +263,7 @@
         "description": "LENOVO Yoga Slim 6, INTEL CORE I5-1240P, RAM 16 GB, SSD 512 GB, INTEL IRIS XE GRAPHICS",
         "price": 1100,
         "rating": 4.68,
-        "brand": "Lenovo Yoga",
+        "brand": "Lenovo",
         "category": "laptops",
         "thumbnail": "https://www.technopolis.bg/medias/sys_master/h11/h85/29839917514782.jpg",
         "images": [
@@ -279,7 +279,7 @@
         "description": "LENOVO YLegion5 Pro 16IAH7H,INTEL CORE I7-12700H, RAM 32 GB, SSD 1000 GB, NVIDIA GEFORCE RTX3060",
         "price": 1350,
         "rating": 4.53,
-        "brand": "Lenovo Legion",
+        "brand": "Lenovo",
         "category": "laptops",
         "thumbnail": "https://www.technopolis.bg/medias/sys_master/h41/h18/28709639290910.jpg",
         "images": [
@@ -295,7 +295,7 @@
         "description": "LENOVO LegionPro 5 16IRX8 82WK004JBM,INTEL CORE I7-13700HX, RAM 32 GB, SSD 1000 GB, NVIDIA GEFORCE RTX4070",
         "price": 2100,
         "rating": 4.21,
-        "brand": "Lenovo Legion",
+        "brand": "Lenovo",
         "category": "laptops",
         "thumbnail": "https://www.technopolis.bg/medias/sys_master/h05/h90/29833761030174.jpg",
         "images": [
@@ -311,7 +311,7 @@
         "description": "ASUS TUF Gaming F15FX507ZV4-HQ039,INTEL CORE I7-12700H, RAM 16 GB, SSD 512 GB, NVIDIA GEFORCE RTX4060",
         "price": 1400,
         "rating": 4.15,
-        "brand": "Asus TUG Gaming",
+        "brand": "Asus",
         "category": "laptops",
         "thumbnail": "https://www.technopolis.bg/medias/sys_master/ha8/h11/29648699359262.jpg",
         "images": [
@@ -327,7 +327,7 @@
         "description": "ASUS ROG Strix G16G614JV-N3180,INTEL CORE I7-13650HX, RAM 16 GB, SSD 1000 GB, NVIDIA GEFORCE RTX4060",
         "price": 1750,
         "rating": 4.82,
-        "brand": "Asus ROG Strix",
+        "brand": "Asus",
         "category": "laptops",
         "thumbnail": "https://www.technopolis.bg/medias/sys_master/h12/hbe/30321985257502.jpg",
         "images": [
@@ -343,7 +343,7 @@
         "description": "HP SPECTREX360 14-EF0039NN 76Z63EA, INTEL CORE I7-1255U, RAM 16 GB, SSD 1000 GB, INTEL IRIS XE GRAPHICS",
         "price": 1700,
         "rating": 3.83,
-        "brand": "HP SPECTREX360",
+        "brand": "HP",
         "category": "laptops",
         "thumbnail": "https://www.technopolis.bg/medias/sys_master/hdc/ha4/30908173844510.jpg",
         "images": [
@@ -359,7 +359,7 @@
         "description": "HP OMEN 16-C0010NU, AMD RYZEN 7 5800H, RAM 16 GB, SSD 1000 GB, NVIDIA GEFORCE RTX3070",
         "price": 1500,
         "rating": 3.20,
-        "brand": "HP OMEN",
+        "brand": "HP",
         "category": "laptops",
         "thumbnail": "https://www.technopolis.bg/medias/sys_master/hdc/ha4/30908173844510.jpg",
         "images": [

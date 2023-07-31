@@ -1,7 +1,7 @@
 import './ListOfProducts.css';
 import { useState } from 'react';
 import { useLocation } from "react-router-dom";
- 
+
 import './Product.css';
 
 function Product({ data }) {
@@ -48,8 +48,10 @@ function Product({ data }) {
 
 
     const [selectedBrand, setselectedBrand] = useState('');
+    const [checked, setChecked] = useState([]);
+
     let categoryList = []
-    let checked = []
+    // let checked = []
     console.log(selectedBrand)
     if (selectedBrand === '') {
         console.log('a')
@@ -58,28 +60,63 @@ function Product({ data }) {
             // if (product.category === 'smartphones') {
             if (!categoryList.includes(product.brand)) {
                 categoryList.push(product.brand)
-                 return data
-            }
-            
-            // }
-            return categoryList
-        })    
-    }else{
-if(checked.includes(selectedBrand)){
-
-}else if()
-        data.map((product, index) => {
-            // if (product.category === 'smartphones') {
-            if (!categoryList.includes(product.brand)) {
-                categoryList.push(product.brand)
-                data = data.filter(pr => pr.brand === selectedBrand)
                 return data
             }
-            
+
             // }
             return categoryList
-        }
-        )
+        })
+    } else {
+        
+            data.map((product, index) => {
+                // if (product.category === 'smartphones') {
+                if (!categoryList.includes(product.brand)) {
+                    categoryList.push(product.brand)
+                    data = data.filter(pr => pr.brand === selectedBrand)
+                    return data
+                }
+
+
+                // }
+                return categoryList
+            }
+            )
+            //             let newArr = []
+
+            //             checked?.map((prod, i) => {
+
+            //                 console.log(prod)
+            //                 data.filter(pr => {
+            //                   if(pr.brand === prod){
+            //                     console.log(pr)
+            //                     // newArr.push(pr)
+            // return newArr
+            //                   }
+            //                 })
+            //                 // arr.concat(newArr)
+            //                 // newArr = arr
+            //                 // newArr.push(arr)
+            //                 console.log(newArr)
+
+
+
+            //             })
+            // data = newArr
+            // return data
+        
+        // else {
+        //     data.map((product, index) => {
+        //         // if (product.category === 'smartphones') {
+        //         if (!categoryList.includes(product.brand)) {
+        //             categoryList.push(product.brand)
+        //             return data
+        //         }
+
+        //         // }
+        //         return categoryList
+        //     })
+        // }
+
     }
 
     // data.map((product, index) => { 
@@ -102,8 +139,10 @@ if(checked.includes(selectedBrand)){
                     <li>ddddd</li>
                     {categoryList.sort((a, b) => (a > b) ? 1 : -1).map((product, index) => (
                         <div key={index} className="brand">
-                            <input type="checkbox" id="brand" name="brand" value={product}
-                                onChange={e => setselectedBrand(e.target.value)} />{product}
+                            <input type="radio" id="dewey" name="drone" value={product}
+                                onChange={e => setselectedBrand(e.target.value)} />
+                            <label for="dewey">{product}</label>
+                          
                         </div>
                     ))}
 
