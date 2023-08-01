@@ -2,5 +2,11 @@ div.filterProduct{
     display: grid;
   grid-template-columns: 0.15fr 1fr;
 }
+@media screen and (max-width: 768px) {
 
- 
+div.div-product {
+    margin: 12px;
+   padding: 12px;
+    }
+
+}

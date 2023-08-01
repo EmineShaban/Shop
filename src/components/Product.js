@@ -214,7 +214,7 @@ function Product({ data }) {
         <div className='filterProduct'>
             <div className='filterDiv'>
                 <ul className='filters'>
-                    <li>Brand Filter</li>
+                    <li>Brand</li>
                     {categoryList.sort((a, b) => (a > b) ? 1 : -1).map((product, index) => (
                         <div key={index} className="brand">
                             <input type="radio" id="dewey" name="drone" value={product}
@@ -222,7 +222,7 @@ function Product({ data }) {
                         </div>
                     ))}
 
-                    <li>Price Filter</li>
+                    <li>Price</li>
                     {priceFilter.map((product, index) => (
                         <div key={index} className="brand">
                             <input type="radio" id="dewey" name="drone" value={product.price}
@@ -247,21 +247,21 @@ function Product({ data }) {
                             </div>
                             : nameLink === '/desktop' ?
                                 <div className='name'>
-                                    <h1>desktop</h1>
+                                    <h1>DESKTOP</h1>
                                     <p>Choose your desktop!</p>
                                 </div>
                                 : nameLink === '/mouse' ?
                                     <div className='name'>
-                                        <h1>mouse</h1>
+                                        <h1>MOUSE</h1>
                                         <p>Choose your mouse!</p>
                                     </div>
                                     : nameLink === '/keyboard' ?
                                         <div className='name'>
-                                            <h1>keyboard</h1>
+                                            <h1>KEYBOARD</h1>
                                             <p>Choose your keyboard!</p>
                                         </div>
                                         : <div className='name'>
-                                            <h1>laptop</h1>
+                                            <h1>LAPTOP</h1>
                                             <p>Choose your laptop!</p>
                                         </div>
                     }

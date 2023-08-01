@@ -1,0 +1,1 @@
+Hello. This is my online store built with React. I tried my best to complete all the tasks. The most difficult thing for me was to perform filtering and sorting, as I did it for the first time.

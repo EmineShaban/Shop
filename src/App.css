@@ -87,3 +87,30 @@ footer p {
   margin: 0;
   padding-bottom: 10px;
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+  header { 
+    width: 95%; 
+     }
+    
+  ul li {
+    display: inline-block;
+    margin: 2px;
+    }
+    div.app {
+      width: 95%;
+      margin: auto;
+    }
+   
+    ul li a { 
+      font-size: 10px;
+       }
+
+       div.container {
+        margin-top: 10%;
+        }
+        
+}
